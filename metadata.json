@@ -1,0 +1,11 @@
+{
+  "name": "AirQo Pollution Visualizer",
+  "description": "Visualize real-time air quality data from AirQo monitoring stations using Google Maps markers and heatmaps.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Data Visualization",
+    "Geospatial Analysis"
+  ]
+}
