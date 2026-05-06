@@ -15,7 +15,7 @@ const KAMPALA_CENTER = { lat: 0.3476, lng: 32.5825 };
 export const MapManager: React.FC = () => {
   const { measurements, viewMode, setSelectedSite } = useAppState();
 
-  const hasValidKey = Boolean(GOOGLE_MAPS_API_KEY) && GOOGLE_MAPS_API_KEY !== 'YOUR_API_KEY';
+  const hasValidKey = Boolean(GOOGLE_MAPS_API_KEY) && GOOGLE_MAPS_API_KEY !== 'YOUR_GOOGLE_MAPS_KEY_HERE';
 
   if (!hasValidKey) {
     return (

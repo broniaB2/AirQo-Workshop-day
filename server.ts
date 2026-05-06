@@ -19,7 +19,7 @@ async function startServer() {
     const AIRQO_API_KEY = process.env.VITE_AIRQO_API_KEY || process.env.AIRQO_API_KEY;
     const AIRQO_URL = 'https://api.airqo.net/api/v2/devices/measurements';
 
-    if (!AIRQO_API_KEY || AIRQO_API_KEY === 'PASTE_YOUR_AIRQO_KEY_HERE') {
+    if (!AIRQO_API_KEY || AIRQO_API_KEY === 'YOUR_AIRQO_KEY_HERE') {
       return res.status(401).json({ 
         success: false, 
         message: 'AirQo API Key is missing in environment variables.' 
